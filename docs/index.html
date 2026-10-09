@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Borwigsches Orakel</title>
+<meta name="description" content="Prognosen für Schachligen in Schleswig-Holstein und die Jugendbundesliga Nord – Monte-Carlo-Simulation auf Basis der DWZ.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='15' fill='%231d2a24'/><text x='16' y='23' font-size='20' text-anchor='middle' fill='%23e8c872'>♞</text></svg>">
+</head>
+<body>
+<header class="kopf">
+  <div class="wrap kopf-inner">
+    <div>
+      <h1><span class="springer" aria-hidden="true">♞</span> Borwigsches Orakel</h1>
+      <p class="unterzeile">Prognosen für Schachligen in Schleswig-Holstein und die Jugendbundesliga Nord</p>
+    </div>
+    <p class="stand" id="stand">Lade Daten …</p>
+  </div>
+  <nav class="wrap ligen-nav" id="ligen-nav" aria-label="Ligen"></nav>
+</header>
+
+<main class="wrap" id="inhalt">
+  <section class="liga-kopf">
+    <div>
+      <h2 id="liga-name">–</h2>
+      <p class="liga-meta" id="liga-meta"></p>
+    </div>
+    <div class="aktionen">
+      <span class="sim-status" id="sim-status"></span>
+      <button class="knopf leise" id="reset" hidden>Annahmen zurücksetzen</button>
+    </div>
+  </section>
+  <p class="hinweis" id="annahme" hidden></p>
+
+  <section class="karte">
+    <div class="karte-kopf">
+      <h3>Prognose</h3>
+      <p class="karte-erk">Wahrscheinlichkeit je Endplatz in Prozent. Mannschaft anklicken, um ihre Restspiele zu sehen.</p>
+    </div>
+    <div class="tabelle-scroll"><table class="prognose" id="prognose"></table></div>
+  </section>
+
+  <div class="zweispaltig">
+    <section class="karte">
+      <div class="karte-kopf"><h3>Aktuelle Tabelle</h3></div>
+      <div class="tabelle-scroll"><table class="tabelle" id="tabelle"></table></div>
+    </section>
+
+    <section class="karte">
+      <div class="karte-kopf">
+        <h3>Spielplan &amp; Was-wäre-wenn</h3>
+        <p class="karte-erk">Für offene Kämpfe ein Ergebnis festlegen – die Prognose rechnet sofort neu. <span class="filter-info" id="filter-info"></span></p>
+      </div>
+      <div id="spielplan"></div>
+    </section>
+  </div>
+
+  <section class="karte methodik">
+    <details>
+      <summary>So rechnet das Orakel</summary>
+      <div class="methodik-text">
+        <p>Jede offene Begegnung wird Brett für Brett ausgespielt, <span id="n-sim">20.000</span>-mal für die ganze Saison. Grundlage ist die durchschnittliche DWZ jeder Mannschaft (SVSH: Schnitt der Meldeliste laut Ergebnisdienst; JBL Nord: Schnitt der ersten Spieler der Meldeliste).</p>
+        <p>Pro Brett gilt die übliche DWZ-Erwartung <code>E = 1 / (1 + 10^(−Δ/400))</code>. Daraus ergeben sich Sieg-, Remis- und Verlustwahrscheinlichkeit; die Remisquote ist bei gleich starken Gegnern am höchsten (30 %) und sinkt mit dem DWZ-Abstand. Damit die Vorhersage nicht zu selbstsicher wird, bekommt jede Mannschaft pro simulierter Saison eine zufällige Tagesform (±40 DWZ Standardabweichung).</p>
+        <p>Die Tabelle wird nach Mannschaftspunkten, dann Brettpunkten sortiert; bleiben Teams gleich, entscheidet das Los. Weitere Feinwertungen (z. B. Berliner Wertung, direkter Vergleich) sind nicht nachgebildet. Aufstellungsänderungen, Ersatzspieler und kampflose Bretter bleiben unberücksichtigt – es ist ein Orakel, keine Glaskugel.</p>
+        <p>Daten: <a href="https://schachverband-sh.de" rel="noopener">Schachverband Schleswig-Holstein</a> und <a href="https://nsv-online.de" rel="noopener">NSV-Ergebnisdienst</a>, automatisch alle paar Stunden aktualisiert. Idee nach dem <a href="https://www.schachklub-bad-homburg.de/LigaOrakel/LigaOrakel.php" rel="noopener">LigaOrakel des SK Bad Homburg</a>.</p>
+      </div>
+    </details>
+  </section>
+</main>
+
+<footer class="fuss wrap">
+  <a href="https://github.com/MisterB024Hub/Borwigsche-Orakel" rel="noopener">Quellcode auf GitHub</a>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

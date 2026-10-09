@@ -1,0 +1,25 @@
+{
+  "_hinweis": "Ligen für das Borwigsche Orakel. 'auf'/'ab'/'ab_evtl'/'relegation' überschreiben die Werte, die automatisch aus der Rangliste gelesen werden (null = automatisch).",
+  "ligen": [
+    {
+      "id": "svsh-212",
+      "quelle": "clm",
+      "basis": "https://schachverband-sh.de/index.php/de/component/clm/",
+      "saison": 9,
+      "liga": 212,
+      "gruppe": "Schleswig-Holstein",
+      "auf": 1,
+      "ab": 2,
+      "ab_evtl": null,
+      "relegation": null,
+      "annahme": "Auf-/Abstiegsplätze in der Rangliste noch nicht markiert – 1 Aufsteiger und 2 Absteiger angenommen."
+    },
+    { "id": "svsh-217", "quelle": "clm", "basis": "https://schachverband-sh.de/index.php/de/component/clm/", "saison": 9, "liga": 217, "gruppe": "Schleswig-Holstein" },
+    { "id": "svsh-219", "quelle": "clm", "basis": "https://schachverband-sh.de/index.php/de/component/clm/", "saison": 9, "liga": 219, "gruppe": "Schleswig-Holstein" },
+    { "id": "svsh-220", "quelle": "clm", "basis": "https://schachverband-sh.de/index.php/de/component/clm/", "saison": 9, "liga": 220, "gruppe": "Schleswig-Holstein" },
+    { "id": "svsh-223", "quelle": "clm", "basis": "https://schachverband-sh.de/index.php/de/component/clm/", "saison": 9, "liga": 223, "gruppe": "Schleswig-Holstein" },
+    { "id": "jbln-west", "quelle": "nsv", "basis": "https://nsv-online.de/ligen/jbln-2627/", "staffel": "staffel-west", "name": "Jugendbundesliga Nord – Staffel West", "bretter": 6, "gruppe": "Jugendbundesliga Nord" },
+    { "id": "jbln-mitte", "quelle": "nsv", "basis": "https://nsv-online.de/ligen/jbln-2627/", "staffel": "staffel-mitte", "name": "Jugendbundesliga Nord – Staffel Mitte", "bretter": 6, "gruppe": "Jugendbundesliga Nord" },
+    { "id": "jbln-ost", "quelle": "nsv", "basis": "https://nsv-online.de/ligen/jbln-2627/", "staffel": "staffel-ost", "name": "Jugendbundesliga Nord – Staffel Ost", "bretter": 6, "gruppe": "Jugendbundesliga Nord" }
+  ]
+}

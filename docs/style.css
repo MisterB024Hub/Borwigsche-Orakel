@@ -1,0 +1,173 @@
+:root {
+  --papier: #f5f1e8;
+  --karte: #fffdf8;
+  --tinte: #1d2a24;
+  --tinte-2: #4a5850;
+  --tinte-3: #7d8a82;
+  --linie: #e2dccd;
+  --linie-2: #d2cab6;
+  --gruen: #1f6b4f;
+  --gruen-h: 31, 107, 79;
+  --gold: #b8892a;
+  --gold-hell: #e8c872;
+  --auf: #1f6b4f;
+  --auf-bg: #e3f0e8;
+  --ab: #a33a2b;
+  --ab-bg: #f6e1dc;
+  --evtl: #b06d1a;
+  --evtl-bg: #f8ead2;
+  --kopf: #1d2a24;
+  --kopf-text: #f5f1e8;
+  --fokus: #b8892a;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+  --sans: "IBM Plex Sans", system-ui, sans-serif;
+  --serif: "Fraunces", Georgia, serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --papier: #121916;
+    --karte: #19221e;
+    --tinte: #e9e4d8;
+    --tinte-2: #b7bdb4;
+    --tinte-3: #848e87;
+    --linie: #2a3530;
+    --linie-2: #36433d;
+    --gruen: #5cc39a;
+    --gruen-h: 92, 195, 154;
+    --gold: #e8c872;
+    --auf: #6fd0a6;
+    --auf-bg: #1d3a2e;
+    --ab: #ef8e7e;
+    --ab-bg: #3d2420;
+    --evtl: #e9b067;
+    --evtl-bg: #3a2e1b;
+    --kopf: #0c110f;
+  }
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--papier);
+  color: var(--tinte);
+  font: 15px/1.5 var(--sans);
+}
+a { color: var(--gruen); }
+.wrap { max-width: 1180px; margin: 0 auto; padding: 0 16px; }
+
+/* Kopf */
+.kopf { background: var(--kopf); color: var(--kopf-text); padding-top: 22px; }
+.kopf-inner { display: flex; justify-content: space-between; align-items: flex-end; gap: 16px; flex-wrap: wrap; }
+.kopf h1 { font: 800 clamp(26px, 4vw, 38px)/1.05 var(--serif); margin: 0; letter-spacing: -0.01em; }
+.springer { color: var(--gold-hell); }
+.unterzeile { margin: 6px 0 0; color: #c9c3b4; font-size: 14px; }
+.stand { margin: 0; font: 12px var(--mono); color: #a9b2ab; }
+.ligen-nav { display: flex; gap: 22px; flex-wrap: wrap; padding-top: 18px; padding-bottom: 0; }
+.nav-gruppe { display: flex; flex-direction: column; gap: 6px; }
+.nav-gruppe-titel { font: 500 11px var(--mono); text-transform: uppercase; letter-spacing: 0.08em; color: #8f9a93; }
+.nav-reihe { display: flex; gap: 4px; flex-wrap: wrap; }
+.nav-knopf {
+  appearance: none; border: 0; cursor: pointer;
+  background: transparent; color: #d6d0c2;
+  font: 500 14px var(--sans);
+  padding: 8px 12px 10px; border-radius: 8px 8px 0 0;
+}
+.nav-knopf:hover { background: rgba(255,255,255,0.06); color: #fff; }
+.nav-knopf[aria-current="true"] { background: var(--papier); color: var(--tinte); }
+.nav-knopf:focus-visible, .knopf:focus-visible, .erg-knopf:focus-visible, .team-link:focus-visible { outline: 2px solid var(--fokus); outline-offset: 2px; }
+
+/* Liga-Kopf */
+.liga-kopf { display: flex; justify-content: space-between; align-items: flex-end; gap: 12px; flex-wrap: wrap; margin: 26px 0 14px; }
+.liga-kopf h2 { font: 700 26px/1.15 var(--serif); margin: 0; }
+.liga-meta { margin: 4px 0 0; color: var(--tinte-2); font-size: 14px; }
+.liga-meta a { white-space: nowrap; }
+.aktionen { display: flex; gap: 10px; align-items: center; }
+.sim-status { font: 12px var(--mono); color: var(--tinte-3); }
+.knopf {
+  appearance: none; cursor: pointer; border: 1px solid var(--linie-2); background: var(--karte); color: var(--tinte);
+  font: 500 13px var(--sans); padding: 7px 12px; border-radius: 8px;
+}
+.knopf:hover { border-color: var(--tinte-3); }
+.hinweis { background: var(--evtl-bg); color: var(--tinte); border-left: 3px solid var(--evtl); padding: 8px 12px; border-radius: 4px; font-size: 14px; margin: 0 0 14px; }
+
+/* Karten */
+.karte { background: var(--karte); border: 1px solid var(--linie); border-radius: 12px; padding: 16px 16px 12px; margin-bottom: 18px; min-width: 0; }
+.karte-kopf { margin-bottom: 10px; }
+.karte h3 { font: 600 17px var(--serif); margin: 0; }
+.karte-erk { margin: 3px 0 0; color: var(--tinte-3); font-size: 13px; }
+.filter-info { color: var(--gruen); font-weight: 500; }
+.zweispaltig { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 18px; align-items: start; }
+.zweispaltig .karte { margin-bottom: 18px; }
+@media (max-width: 900px) { .zweispaltig { grid-template-columns: 1fr; gap: 0; } }
+.tabelle-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
+table { border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; }
+th { font: 500 11px var(--mono); text-transform: uppercase; letter-spacing: 0.04em; color: var(--tinte-3); text-align: right; padding: 6px 6px; border-bottom: 1px solid var(--linie-2); white-space: nowrap; }
+td { padding: 6px 6px; border-bottom: 1px solid var(--linie); text-align: right; white-space: nowrap; }
+th.l, td.l { text-align: left; }
+tr:last-child td { border-bottom: 0; }
+td.team { text-align: left; max-width: 240px; overflow: hidden; text-overflow: ellipsis; }
+.team-link { appearance: none; border: 0; background: none; padding: 0; color: inherit; font: inherit; cursor: pointer; text-align: left; }
+.team-link:hover { color: var(--gruen); text-decoration: underline; }
+tr.aktiv td { background: rgba(var(--gruen-h), 0.08); }
+tr.aktiv td.team { font-weight: 600; }
+.dwz { color: var(--tinte-3); font: 12px var(--mono); }
+.rang { color: var(--tinte-3); font: 12px var(--mono); width: 28px; }
+
+/* Prognose-Tabelle */
+.prognose td.p { font: 12px var(--mono); padding: 6px 4px; min-width: 38px; text-align: center; }
+.prognose th.p { text-align: center; padding: 6px 4px; }
+.prognose td.k { font: 600 13px var(--mono); }
+.prognose td.k.auf { color: var(--auf); }
+.prognose td.k.ab { color: var(--ab); }
+.prognose td.k.evtl { color: var(--evtl); }
+.prognose td.k.null { color: var(--tinte-3); font-weight: 400; }
+.prognose th.zone-auf { box-shadow: inset 0 -3px 0 var(--auf); }
+.prognose th.zone-ab { box-shadow: inset 0 -3px 0 var(--ab); }
+.prognose th.zone-evtl { box-shadow: inset 0 -3px 0 var(--evtl); }
+.prognose td.trenner, .prognose th.trenner { border-left: 1px solid var(--linie-2); }
+.tabelle td.zone-auf, .tabelle td.zone-ab, .tabelle td.zone-evtl { position: relative; }
+.tabelle td.rang.zone-auf { box-shadow: inset 3px 0 0 var(--auf); }
+.tabelle td.rang.zone-ab { box-shadow: inset 3px 0 0 var(--ab); }
+.tabelle td.rang.zone-evtl { box-shadow: inset 3px 0 0 var(--evtl); }
+
+/* Spielplan */
+.runde { border-top: 1px solid var(--linie); padding: 10px 0 4px; }
+.runde:first-child { border-top: 0; padding-top: 0; }
+.runde-kopf { cursor: pointer; list-style: none; display: flex; justify-content: space-between; font: 500 12px var(--mono); color: var(--tinte-3); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+.kampf { display: grid; grid-template-columns: minmax(0,1fr) auto minmax(0,1fr); gap: 4px 10px; align-items: center; padding: 6px 0; }
+.kampf + .kampf { border-top: 1px dashed var(--linie); }
+.kampf .h { text-align: right; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.kampf .g { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.kampf .mitte { text-align: center; }
+.ergebnis { font: 600 14px var(--mono); }
+.ergebnis.fest { color: var(--tinte); }
+.ergebnis.annahme { color: var(--gold); }
+.erg-gruppe { display: inline-flex; border: 1px solid var(--linie-2); border-radius: 7px; overflow: hidden; }
+.erg-knopf { appearance: none; border: 0; background: transparent; color: var(--tinte-2); font: 500 12px var(--mono); padding: 4px 8px; cursor: pointer; min-width: 28px; }
+.erg-knopf + .erg-knopf { border-left: 1px solid var(--linie-2); }
+.erg-knopf:hover { background: rgba(var(--gruen-h), 0.08); }
+.erg-knopf[aria-pressed="true"] { background: var(--gold); color: #1d2a24; }
+.wkeit { grid-column: 1 / -1; display: flex; height: 6px; border-radius: 3px; overflow: hidden; background: var(--linie); }
+.wkeit span { display: block; height: 100%; }
+.wkeit .w-h { background: var(--gruen); }
+.wkeit .w-r { background: var(--linie-2); }
+.wkeit .w-g { background: var(--tinte-3); }
+.wkeit-zahlen { grid-column: 1 / -1; display: flex; justify-content: space-between; font: 11px var(--mono); color: var(--tinte-3); margin-top: -2px; }
+.leer { color: var(--tinte-3); font-size: 14px; padding: 8px 0; }
+
+/* Methodik */
+.methodik summary { cursor: pointer; font: 600 16px var(--serif); }
+.methodik-text { color: var(--tinte-2); font-size: 14px; max-width: 75ch; }
+.methodik code { font: 12px var(--mono); background: var(--papier); padding: 1px 4px; border-radius: 4px; }
+.fuss { padding: 8px 16px 40px; font-size: 13px; color: var(--tinte-3); }
+.runde-kopf::-webkit-details-marker { display: none; }
+.runde-kopf span:first-child::before { content: "▸ "; }
+details[open] > .runde-kopf span:first-child::before { content: "▾ "; }
+@media (max-width: 560px) {
+  .kampf { font-size: 13px; gap: 4px 6px; }
+  .kampf .dwz { display: none; }
+  .erg-knopf { padding: 4px 6px; min-width: 24px; }
+  .prognose td.team { max-width: 150px; }
+}

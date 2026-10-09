@@ -1,0 +1,865 @@
+{
+ "stand": "2026-10-09T22:57:15+00:00",
+ "ligen": [
+  {
+   "id": "svsh-212",
+   "name": "Verbandsliga B",
+   "gruppe": "Schleswig-Holstein",
+   "url": "https://schachverband-sh.de/index.php/de/component/clm/?view=rangliste&saison=9&liga=212&Itemid=1",
+   "bretter": 8,
+   "auf": 1,
+   "ab": 2,
+   "ab_evtl": 0,
+   "relegation": 0,
+   "annahme": "Auf-/Abstiegsplätze in der Rangliste noch nicht markiert – 1 Aufsteiger und 2 Absteiger angenommen.",
+   "wertung": [
+    "MP",
+    "BP"
+   ],
+   "teams": [
+    {
+     "id": "1",
+     "name": "SV Bad Schwartau 2",
+     "dwz": 1984
+    },
+    {
+     "id": "2",
+     "name": "Kieler SG",
+     "dwz": 2034
+    },
+    {
+     "id": "3",
+     "name": "Agon Neumünster 1",
+     "dwz": 2017
+    },
+    {
+     "id": "4",
+     "name": "Raisdorfer SG",
+     "dwz": 1971
+    },
+    {
+     "id": "5",
+     "name": "Lübecker SV 5",
+     "dwz": 2015
+    },
+    {
+     "id": "6",
+     "name": "TuRa Harksheide",
+     "dwz": 2066
+    },
+    {
+     "id": "7",
+     "name": "Segeberger SF",
+     "dwz": 1998
+    },
+    {
+     "id": "8",
+     "name": "Agon Neumünster 2",
+     "dwz": 1918
+    },
+    {
+     "id": "9",
+     "name": "SV Eutin",
+     "dwz": 2009
+    },
+    {
+     "id": "10",
+     "name": "SK Norderstedt 2",
+     "dwz": 2123
+    }
+   ],
+   "spiele": [
+    {
+     "runde": 1,
+     "datum": "2026-10-11",
+     "heim": "1",
+     "gast": "10",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 1,
+     "datum": "2026-10-11",
+     "heim": "2",
+     "gast": "9",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 1,
+     "datum": "2026-10-11",
+     "heim": "3",
+     "gast": "8",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 1,
+     "datum": "2026-10-11",
+     "heim": "4",
+     "gast": "7",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 1,
+     "datum": "2026-10-11",
+     "heim": "5",
+     "gast": "6",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 2,
+     "datum": "2026-11-15",
+     "heim": "10",
+     "gast": "6",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 2,
+     "datum": "2026-11-15",
+     "heim": "7",
+     "gast": "5",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 2,
+     "datum": "2026-11-15",
+     "heim": "8",
+     "gast": "4",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 2,
+     "datum": "2026-11-15",
+     "heim": "9",
+     "gast": "3",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 2,
+     "datum": "2026-11-15",
+     "heim": "1",
+     "gast": "2",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 3,
+     "datum": "2026-12-13",
+     "heim": "2",
+     "gast": "10",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 3,
+     "datum": "2026-12-13",
+     "heim": "3",
+     "gast": "1",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 3,
+     "datum": "2026-12-13",
+     "heim": "4",
+     "gast": "9",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 3,
+     "datum": "2026-12-13",
+     "heim": "5",
+     "gast": "8",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 3,
+     "datum": "2026-12-13",
+     "heim": "6",
+     "gast": "7",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 4,
+     "datum": "2027-01-10",
+     "heim": "10",
+     "gast": "7",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 4,
+     "datum": "2027-01-10",
+     "heim": "8",
+     "gast": "6",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 4,
+     "datum": "2027-01-10",
+     "heim": "9",
+     "gast": "5",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 4,
+     "datum": "2027-01-10",
+     "heim": "1",
+     "gast": "4",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 4,
+     "datum": "2027-01-10",
+     "heim": "2",
+     "gast": "3",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 5,
+     "datum": "2027-01-31",
+     "heim": "3",
+     "gast": "10",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 5,
+     "datum": "2027-01-31",
+     "heim": "4",
+     "gast": "2",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 5,
+     "datum": "2027-01-31",
+     "heim": "5",
+     "gast": "1",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 5,
+     "datum": "2027-01-31",
+     "heim": "6",
+     "gast": "9",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 5,
+     "datum": "2027-01-31",
+     "heim": "7",
+     "gast": "8",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 6,
+     "datum": "2027-02-14",
+     "heim": "10",
+     "gast": "8",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 6,
+     "datum": "2027-02-14",
+     "heim": "9",
+     "gast": "7",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 6,
+     "datum": "2027-02-14",
+     "heim": "1",
+     "gast": "6",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 6,
+     "datum": "2027-02-14",
+     "heim": "2",
+     "gast": "5",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 6,
+     "datum": "2027-02-14",
+     "heim": "3",
+     "gast": "4",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 7,
+     "datum": "2027-03-07",
+     "heim": "4",
+     "gast": "10",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 7,
+     "datum": "2027-03-07",
+     "heim": "5",
+     "gast": "3",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 7,
+     "datum": "2027-03-07",
+     "heim": "6",
+     "gast": "2",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 7,
+     "datum": "2027-03-07",
+     "heim": "7",
+     "gast": "1",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 7,
+     "datum": "2027-03-07",
+     "heim": "8",
+     "gast": "9",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 8,
+     "datum": "2027-04-25",
+     "heim": "10",
+     "gast": "9",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 8,
+     "datum": "2027-04-25",
+     "heim": "1",
+     "gast": "8",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 8,
+     "datum": "2027-04-25",
+     "heim": "2",
+     "gast": "7",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 8,
+     "datum": "2027-04-25",
+     "heim": "3",
+     "gast": "6",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 8,
+     "datum": "2027-04-25",
+     "heim": "4",
+     "gast": "5",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 9,
+     "datum": "2027-05-30",
+     "heim": "5",
+     "gast": "10",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 9,
+     "datum": "2027-05-30",
+     "heim": "6",
+     "gast": "4",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 9,
+     "datum": "2027-05-30",
+     "heim": "7",
+     "gast": "3",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 9,
+     "datum": "2027-05-30",
+     "heim": "8",
+     "gast": "2",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 9,
+     "datum": "2027-05-30",
+     "heim": "9",
+     "gast": "1",
+     "bh": null,
+     "bg": null
+    }
+   ]
+  },
+  {
+   "id": "svsh-223",
+   "name": "Jugendlandesliga",
+   "gruppe": "Schleswig-Holstein",
+   "url": "https://schachverband-sh.de/index.php/de/component/clm/?view=rangliste&saison=9&liga=223&Itemid=1",
+   "bretter": 6,
+   "auf": 1,
+   "ab": 2,
+   "ab_evtl": 1,
+   "relegation": 0,
+   "annahme": null,
+   "wertung": [
+    "MP",
+    "BP"
+   ],
+   "teams": [
+    {
+     "id": "1",
+     "name": "SV Holstein Quickborn 1 (J)",
+     "dwz": 1757
+    },
+    {
+     "id": "2",
+     "name": "Lübecker SV 2 (J)",
+     "dwz": 1894
+    },
+    {
+     "id": "3",
+     "name": "TuRa Harksheide 1 (J)",
+     "dwz": 1939
+    },
+    {
+     "id": "4",
+     "name": "SK Kaltenkirchen 1 (J)",
+     "dwz": 1697
+    },
+    {
+     "id": "5",
+     "name": "Elmshorner SC 1 (J)",
+     "dwz": 1836
+    },
+    {
+     "id": "6",
+     "name": "Elmshorner SC 2 (J)",
+     "dwz": 1634
+    },
+    {
+     "id": "7",
+     "name": "SF Wilstermarsch & Itzehoe 1 (J)",
+     "dwz": 1906
+    },
+    {
+     "id": "8",
+     "name": "Raisdorfer SG 2 (J)",
+     "dwz": 1721
+    },
+    {
+     "id": "9",
+     "name": "Ahrensburger TSV 1 (J)",
+     "dwz": 1841
+    },
+    {
+     "id": "10",
+     "name": "SV Bad Oldesloe 1 (J)",
+     "dwz": 1722
+    }
+   ],
+   "spiele": [
+    {
+     "runde": 1,
+     "datum": "2026-09-27",
+     "heim": "1",
+     "gast": "10",
+     "bh": 2.0,
+     "bg": 4.0
+    },
+    {
+     "runde": 1,
+     "datum": "2026-09-27",
+     "heim": "2",
+     "gast": "9",
+     "bh": 2.5,
+     "bg": 3.5
+    },
+    {
+     "runde": 1,
+     "datum": "2026-09-27",
+     "heim": "3",
+     "gast": "8",
+     "bh": 2.5,
+     "bg": 3.5
+    },
+    {
+     "runde": 1,
+     "datum": "2026-09-27",
+     "heim": "4",
+     "gast": "7",
+     "bh": 1.5,
+     "bg": 4.5
+    },
+    {
+     "runde": 1,
+     "datum": "2026-09-27",
+     "heim": "5",
+     "gast": "6",
+     "bh": 5.0,
+     "bg": 1.0
+    },
+    {
+     "runde": 2,
+     "datum": "2026-11-08",
+     "heim": "10",
+     "gast": "6",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 2,
+     "datum": "2026-11-08",
+     "heim": "7",
+     "gast": "5",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 2,
+     "datum": "2026-11-08",
+     "heim": "8",
+     "gast": "4",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 2,
+     "datum": "2026-11-08",
+     "heim": "9",
+     "gast": "3",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 2,
+     "datum": "2026-11-08",
+     "heim": "1",
+     "gast": "2",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 3,
+     "datum": "2026-11-22",
+     "heim": "2",
+     "gast": "10",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 3,
+     "datum": "2026-11-22",
+     "heim": "3",
+     "gast": "1",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 3,
+     "datum": "2026-11-22",
+     "heim": "4",
+     "gast": "9",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 3,
+     "datum": "2026-11-22",
+     "heim": "5",
+     "gast": "8",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 3,
+     "datum": "2026-11-22",
+     "heim": "6",
+     "gast": "7",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 4,
+     "datum": "2027-01-17",
+     "heim": "10",
+     "gast": "7",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 4,
+     "datum": "2027-01-17",
+     "heim": "8",
+     "gast": "6",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 4,
+     "datum": "2027-01-17",
+     "heim": "9",
+     "gast": "5",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 4,
+     "datum": "2027-01-17",
+     "heim": "1",
+     "gast": "4",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 4,
+     "datum": "2027-01-17",
+     "heim": "2",
+     "gast": "3",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 5,
+     "datum": "2027-02-07",
+     "heim": "3",
+     "gast": "10",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 5,
+     "datum": "2027-02-07",
+     "heim": "4",
+     "gast": "2",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 5,
+     "datum": "2027-02-07",
+     "heim": "5",
+     "gast": "1",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 5,
+     "datum": "2027-02-07",
+     "heim": "6",
+     "gast": "9",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 5,
+     "datum": "2027-02-07",
+     "heim": "7",
+     "gast": "8",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 6,
+     "datum": "2027-02-28",
+     "heim": "10",
+     "gast": "8",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 6,
+     "datum": "2027-02-28",
+     "heim": "9",
+     "gast": "7",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 6,
+     "datum": "2027-02-28",
+     "heim": "1",
+     "gast": "6",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 6,
+     "datum": "2027-02-28",
+     "heim": "2",
+     "gast": "5",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 6,
+     "datum": "2027-02-28",
+     "heim": "3",
+     "gast": "4",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 7,
+     "datum": "2027-04-18",
+     "heim": "4",
+     "gast": "10",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 7,
+     "datum": "2027-04-18",
+     "heim": "5",
+     "gast": "3",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 7,
+     "datum": "2027-04-18",
+     "heim": "6",
+     "gast": "2",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 7,
+     "datum": "2027-04-18",
+     "heim": "7",
+     "gast": "1",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 7,
+     "datum": "2027-04-18",
+     "heim": "8",
+     "gast": "9",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 8,
+     "datum": "2027-05-02",
+     "heim": "10",
+     "gast": "9",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 8,
+     "datum": "2027-05-02",
+     "heim": "1",
+     "gast": "8",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 8,
+     "datum": "2027-05-02",
+     "heim": "2",
+     "gast": "7",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 8,
+     "datum": "2027-05-02",
+     "heim": "3",
+     "gast": "6",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 8,
+     "datum": "2027-05-02",
+     "heim": "4",
+     "gast": "5",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 9,
+     "datum": "2027-06-06",
+     "heim": "5",
+     "gast": "10",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 9,
+     "datum": "2027-06-06",
+     "heim": "6",
+     "gast": "4",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 9,
+     "datum": "2027-06-06",
+     "heim": "7",
+     "gast": "3",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 9,
+     "datum": "2027-06-06",
+     "heim": "8",
+     "gast": "2",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 9,
+     "datum": "2027-06-06",
+     "heim": "9",
+     "gast": "1",
+     "bh": null,
+     "bg": null
+    }
+   ]
+  }
+ ]
+}
