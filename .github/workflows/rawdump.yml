@@ -12,10 +12,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Download
+        env:
+          URLS: ${{ github.event.inputs.urls }}
         run: |
           mkdir out && cd out
           i=0
-          for u in ${{ github.event.inputs.urls }}; do
+          for u in $URLS; do
             i=$((i+1))
             curl -sSL -A "Mozilla/5.0 BorwigscheOrakel" --max-time 60 -o "p$i.html" "$u" || echo "FAIL $u" > "p$i.html"
             echo "p$i.html $u" >> index.txt
