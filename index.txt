@@ -1,0 +1,7 @@
+p1.html https://nsv-online.de/ligen/jbln-2627/api/teams/9004/
+p2.html https://nsv-online.de/ligen/jbln-2627/?mannschaft=9004
+p3.html https://schachverband-sh.de/index.php/de/component/clm/?saison=9&Itemid=1&view=paarungsliste&liga=217
+p4.html https://schachverband-sh.de/index.php/de/component/clm/?saison=9&Itemid=1&view=paarungsliste&liga=220
+p5.html https://schachverband-sh.de/index.php/de/component/clm/?saison=9&Itemid=1&view=rangliste&liga=217
+p6.html https://schachverband-sh.de/index.php/de/component/clm/?saison=9&Itemid=1&view=rangliste&liga=212
+p7.html https://schachverband-sh.de/index.php/de/component/clm/?saison=9&Itemid=1&view=liga_info&liga=223
