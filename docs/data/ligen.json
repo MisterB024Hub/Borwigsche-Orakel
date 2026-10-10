@@ -1,5 +1,5 @@
 {
- "stand": "2026-10-10T06:04:16+00:00",
+ "stand": "2026-10-10T12:45:03+00:00",
  "ligen": [
   {
    "id": "svsh-212",
@@ -30,17 +30,17 @@
     {
      "id": "3",
      "name": "Agon Neumünster 1",
-     "dwz": 2017
+     "dwz": 2008
     },
     {
      "id": "4",
      "name": "Raisdorfer SG",
-     "dwz": 1971
+     "dwz": 1982
     },
     {
      "id": "5",
      "name": "Lübecker SV 5",
-     "dwz": 2015
+     "dwz": 2016
     },
     {
      "id": "6",
@@ -55,7 +55,7 @@
     {
      "id": "8",
      "name": "Agon Neumünster 2",
-     "dwz": 1918
+     "dwz": 1919
     },
     {
      "id": "9",
@@ -465,7 +465,7 @@
     {
      "id": "4",
      "name": "Raisdorfer SG 2",
-     "dwz": 1861
+     "dwz": 1863
     },
     {
      "id": "5",
@@ -890,7 +890,7 @@
     {
      "id": "3",
      "name": "Raisdorfer SG 3",
-     "dwz": 1794
+     "dwz": 1795
     },
     {
      "id": "4",
@@ -900,7 +900,7 @@
     {
      "id": "5",
      "name": "SC Agon Neumünster 6",
-     "dwz": 1771
+     "dwz": 1790
     },
     {
      "id": "6",
@@ -1190,7 +1190,7 @@
     {
      "id": "5",
      "name": "Raisdorfer SG 4",
-     "dwz": 1781
+     "dwz": 1775
     },
     {
      "id": "6",
@@ -1620,12 +1620,12 @@
     {
      "id": "5",
      "name": "Elmshorner SC 1 (J)",
-     "dwz": 1836
+     "dwz": 1828
     },
     {
      "id": "6",
      "name": "Elmshorner SC 2 (J)",
-     "dwz": 1634
+     "dwz": 1635
     },
     {
      "id": "7",
@@ -1635,7 +1635,7 @@
     {
      "id": "8",
      "name": "Raisdorfer SG 2 (J)",
-     "dwz": 1721
+     "dwz": 1717
     },
     {
      "id": "9",
