@@ -1,5 +1,5 @@
 {
- "stand": "2026-10-09T23:01:27+00:00",
+ "stand": "2026-10-10T06:04:16+00:00",
  "ligen": [
   {
    "id": "svsh-212",
@@ -2030,7 +2030,7 @@
     {
      "id": "8922",
      "name": "Hamburger SK",
-     "dwz": 2101
+     "dwz": 2102
     },
     {
      "id": "9005",
@@ -2045,12 +2045,12 @@
     {
      "id": "9009",
      "name": "Raisdorfer SG",
-     "dwz": 1935
+     "dwz": 1950
     },
     {
      "id": "9006",
      "name": "SC Agon Neumünster",
-     "dwz": 1831
+     "dwz": 1825
     },
     {
      "id": "9010",
@@ -2065,7 +2065,7 @@
     {
      "id": "9007",
      "name": "SVgg Blankenese",
-     "dwz": 1944
+     "dwz": 1949
     }
    ],
    "spiele": [
@@ -2319,22 +2319,22 @@
     {
      "id": "9012",
      "name": "Hagener SV",
-     "dwz": 1972
+     "dwz": 1971
     },
     {
      "id": "9013",
      "name": "KSV Rochade Gött",
-     "dwz": 1960
+     "dwz": 1970
     },
     {
      "id": "9015",
      "name": "Roch. Braunschweig",
-     "dwz": 2014
+     "dwz": 2004
     },
     {
      "id": "9018",
      "name": "SK Lehrte",
-     "dwz": 1962
+     "dwz": 1970
     },
     {
      "id": "9016",
@@ -2598,12 +2598,12 @@
     {
      "id": "8903",
      "name": "Barnimer SF",
-     "dwz": 2108
+     "dwz": 2110
     },
     {
      "id": "8904",
      "name": "Königsjäger Süd-West",
-     "dwz": 2039
+     "dwz": 2033
     },
     {
      "id": "8906",
@@ -2623,7 +2623,7 @@
     {
      "id": "8908",
      "name": "SV Hellas Nauen",
-     "dwz": 1921
+     "dwz": 1919
     },
     {
      "id": "8907",
