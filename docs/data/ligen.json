@@ -1,5 +1,5 @@
 {
- "stand": "2026-10-13T10:48:54+00:00",
+ "stand": "2026-10-14T08:52:42+00:00",
  "ligen": [
   {
    "id": "svsh-212",
@@ -2035,7 +2035,7 @@
     {
      "id": "9005",
      "name": "Johanneum Eppendorf",
-     "dwz": 1989
+     "dwz": 1995
     },
     {
      "id": "9008",
@@ -2045,12 +2045,12 @@
     {
      "id": "9009",
      "name": "Raisdorfer SG",
-     "dwz": 1951
+     "dwz": 1946
     },
     {
      "id": "9006",
      "name": "SC Agon Neumünster",
-     "dwz": 1825
+     "dwz": 1833
     },
     {
      "id": "9010",
@@ -2060,12 +2060,12 @@
     {
      "id": "9004",
      "name": "SK Weisse Dame HH",
-     "dwz": 1907
+     "dwz": 1915
     },
     {
      "id": "9007",
      "name": "SVgg Blankenese",
-     "dwz": 1949
+     "dwz": 1946
     }
    ],
    "spiele": [
@@ -2314,7 +2314,7 @@
     {
      "id": "9011",
      "name": "AE Magdeburg",
-     "dwz": 2144
+     "dwz": 2146
     },
     {
      "id": "9012",
@@ -2324,7 +2324,7 @@
     {
      "id": "9013",
      "name": "KSV Rochade Gött",
-     "dwz": 1970
+     "dwz": 1972
     },
     {
      "id": "9015",
@@ -2349,7 +2349,7 @@
     {
      "id": "9017",
      "name": "USC Magdeburg",
-     "dwz": 1958
+     "dwz": 1956
     }
    ],
    "spiele": [
@@ -2603,12 +2603,12 @@
     {
      "id": "8904",
      "name": "Königsjäger Süd-West",
-     "dwz": 2033
+     "dwz": 2035
     },
     {
      "id": "8906",
      "name": "SAV Torgelow",
-     "dwz": 1895
+     "dwz": 1899
     },
     {
      "id": "8910",
@@ -2618,7 +2618,7 @@
     {
      "id": "8905",
      "name": "SV Empor Berlin",
-     "dwz": 2094
+     "dwz": 2100
     },
     {
      "id": "8908",
@@ -2628,12 +2628,12 @@
     {
      "id": "8907",
      "name": "TSG Oberschöneweide",
-     "dwz": 2084
+     "dwz": 2081
     },
     {
      "id": "8909",
      "name": "Think Rochade - HRO",
-     "dwz": 1980
+     "dwz": 1978
     }
    ],
    "spiele": [
