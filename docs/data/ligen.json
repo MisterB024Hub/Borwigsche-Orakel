@@ -1,5 +1,5 @@
 {
- "stand": "2026-10-14T08:52:42+00:00",
+ "stand": "2026-10-15T11:45:12+00:00",
  "ligen": [
   {
    "id": "svsh-212",
@@ -35,7 +35,7 @@
     {
      "id": "4",
      "name": "Raisdorfer SG",
-     "dwz": 1982
+     "dwz": 1978
     },
     {
      "id": "5",
@@ -55,7 +55,7 @@
     {
      "id": "8",
      "name": "Agon Neumünster 2",
-     "dwz": 1919
+     "dwz": 1925
     },
     {
      "id": "9",
@@ -460,7 +460,7 @@
     {
      "id": "3",
      "name": "SVG Friedrichsort",
-     "dwz": 1920
+     "dwz": 1926
     },
     {
      "id": "4",
@@ -480,7 +480,7 @@
     {
      "id": "7",
      "name": "SG Plöner See",
-     "dwz": 1904
+     "dwz": 1906
     },
     {
      "id": "8",
@@ -1210,7 +1210,7 @@
     {
      "id": "9",
      "name": "SVG Friedrichsort 2",
-     "dwz": 1759
+     "dwz": 1740
     },
     {
      "id": "10",
@@ -1630,7 +1630,7 @@
     {
      "id": "7",
      "name": "SF Wilstermarsch & Itzehoe 1 (J)",
-     "dwz": 1906
+     "dwz": 1909
     },
     {
      "id": "8",
@@ -1640,7 +1640,7 @@
     {
      "id": "9",
      "name": "Ahrensburger TSV 1 (J)",
-     "dwz": 1841
+     "dwz": 1838
     },
     {
      "id": "10",
@@ -2364,14 +2364,6 @@
     {
      "runde": 1,
      "datum": "2026-10-04",
-     "heim": "9017",
-     "gast": "9014",
-     "bh": null,
-     "bg": null
-    },
-    {
-     "runde": 1,
-     "datum": "2026-10-04",
      "heim": "9015",
      "gast": "9016",
      "bh": 3.5,
@@ -2386,10 +2378,18 @@
      "bg": 4.0
     },
     {
+     "runde": 1,
+     "datum": "2026-10-04",
+     "heim": "9017",
+     "gast": "9014",
+     "bh": null,
+     "bg": null
+    },
+    {
      "runde": 2,
      "datum": "2026-11-07",
-     "heim": "9011",
-     "gast": "9018",
+     "heim": "9014",
+     "gast": "9015",
      "bh": null,
      "bg": null
     },
@@ -2404,8 +2404,8 @@
     {
      "runde": 2,
      "datum": "2026-11-07",
-     "heim": "9014",
-     "gast": "9015",
+     "heim": "9011",
+     "gast": "9018",
      "bh": null,
      "bg": null
     },
@@ -2420,15 +2420,7 @@
     {
      "runde": 3,
      "datum": "2026-11-08",
-     "heim": "9011",
-     "gast": "9015",
-     "bh": null,
-     "bg": null
-    },
-    {
-     "runde": 3,
-     "datum": "2026-11-08",
-     "heim": "9014",
+     "heim": "9015",
      "gast": "9012",
      "bh": null,
      "bg": null
@@ -2436,40 +2428,24 @@
     {
      "runde": 3,
      "datum": "2026-11-08",
-     "heim": "9013",
-     "gast": "9018",
+     "heim": "9011",
+     "gast": "9016",
      "bh": null,
      "bg": null
     },
     {
      "runde": 3,
      "datum": "2026-11-08",
-     "heim": "9016",
-     "gast": "9017",
+     "heim": "9013",
+     "gast": "9014",
      "bh": null,
      "bg": null
     },
     {
-     "runde": 4,
-     "datum": "2026-12-13",
+     "runde": 3,
+     "datum": "2026-11-08",
      "heim": "9017",
-     "gast": "9011",
-     "bh": null,
-     "bg": null
-    },
-    {
-     "runde": 4,
-     "datum": "2026-12-13",
-     "heim": "9012",
-     "gast": "9016",
-     "bh": null,
-     "bg": null
-    },
-    {
-     "runde": 4,
-     "datum": "2026-12-13",
-     "heim": "9015",
-     "gast": "9013",
+     "gast": "9018",
      "bh": null,
      "bg": null
     },
@@ -2482,18 +2458,34 @@
      "bg": null
     },
     {
-     "runde": 5,
-     "datum": "2027-01-17",
-     "heim": "9011",
-     "gast": "9012",
+     "runde": 4,
+     "datum": "2026-12-13",
+     "heim": "9015",
+     "gast": "9013",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 4,
+     "datum": "2026-12-13",
+     "heim": "9012",
+     "gast": "9016",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 4,
+     "datum": "2026-12-13",
+     "heim": "9017",
+     "gast": "9011",
      "bh": null,
      "bg": null
     },
     {
      "runde": 5,
      "datum": "2027-01-17",
-     "heim": "9013",
-     "gast": "9017",
+     "heim": "9015",
+     "gast": "9018",
      "bh": null,
      "bg": null
     },
@@ -2508,24 +2500,24 @@
     {
      "runde": 5,
      "datum": "2027-01-17",
-     "heim": "9015",
-     "gast": "9018",
+     "heim": "9013",
+     "gast": "9017",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 5,
+     "datum": "2027-01-17",
+     "heim": "9011",
+     "gast": "9012",
      "bh": null,
      "bg": null
     },
     {
      "runde": 6,
      "datum": "2027-02-28",
-     "heim": "9012",
-     "gast": "9013",
-     "bh": null,
-     "bg": null
-    },
-    {
-     "runde": 6,
-     "datum": "2027-02-28",
-     "heim": "9014",
-     "gast": "9011",
+     "heim": "9017",
+     "gast": "9015",
      "bh": null,
      "bg": null
     },
@@ -2540,8 +2532,16 @@
     {
      "runde": 6,
      "datum": "2027-02-28",
-     "heim": "9017",
-     "gast": "9015",
+     "heim": "9014",
+     "gast": "9011",
+     "bh": null,
+     "bg": null
+    },
+    {
+     "runde": 6,
+     "datum": "2027-02-28",
+     "heim": "9012",
+     "gast": "9013",
      "bh": null,
      "bg": null
     },
@@ -2549,14 +2549,14 @@
      "runde": 7,
      "datum": "2027-04-18",
      "heim": "9011",
-     "gast": "9016",
+     "gast": "9015",
      "bh": null,
      "bg": null
     },
     {
      "runde": 7,
      "datum": "2027-04-18",
-     "heim": "9015",
+     "heim": "9014",
      "gast": "9012",
      "bh": null,
      "bg": null
@@ -2565,15 +2565,15 @@
      "runde": 7,
      "datum": "2027-04-18",
      "heim": "9013",
-     "gast": "9014",
+     "gast": "9018",
      "bh": null,
      "bg": null
     },
     {
      "runde": 7,
      "datum": "2027-04-18",
-     "heim": "9017",
-     "gast": "9018",
+     "heim": "9016",
+     "gast": "9017",
      "bh": null,
      "bg": null
     }
