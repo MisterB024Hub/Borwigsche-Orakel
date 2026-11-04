@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-03T11:04:58+00:00",
+ "stand": "2026-11-04T11:14:45+00:00",
  "ligen": [
   {
    "id": "svsh-212",
@@ -2060,7 +2060,7 @@
     {
      "id": "9004",
      "name": "SK Weisse Dame HH",
-     "dwz": 1915
+     "dwz": 1918
     },
     {
      "id": "9007",
@@ -2314,7 +2314,7 @@
     {
      "id": "9011",
      "name": "AE Magdeburg",
-     "dwz": 2146
+     "dwz": 2154
     },
     {
      "id": "9012",
@@ -2603,7 +2603,7 @@
     {
      "id": "8904",
      "name": "Königsjäger Süd-West",
-     "dwz": 2045
+     "dwz": 2054
     },
     {
      "id": "8906",
@@ -2618,17 +2618,17 @@
     {
      "id": "8905",
      "name": "SV Empor Berlin",
-     "dwz": 2100
+     "dwz": 2104
     },
     {
      "id": "8908",
      "name": "SV Hellas Nauen",
-     "dwz": 1919
+     "dwz": 1920
     },
     {
      "id": "8907",
      "name": "TSG Oberschöneweide",
-     "dwz": 2097
+     "dwz": 2102
     },
     {
      "id": "8909",
