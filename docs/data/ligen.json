@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-13T11:16:27+00:00",
+ "stand": "2026-11-13T19:53:45+00:00",
  "ligen": [
   {
    "id": "svsh-212",
@@ -55,12 +55,12 @@
     {
      "id": "8",
      "name": "Agon Neumünster 2",
-     "dwz": 1925
+     "dwz": 1927
     },
     {
      "id": "9",
      "name": "SV Eutin",
-     "dwz": 2012
+     "dwz": 2010
     },
     {
      "id": "10",
@@ -450,7 +450,7 @@
     {
      "id": "1",
      "name": "Kieler SG 2",
-     "dwz": 1975
+     "dwz": 1970
     },
     {
      "id": "2",
@@ -465,7 +465,7 @@
     {
      "id": "4",
      "name": "Raisdorfer SG 2",
-     "dwz": 1863
+     "dwz": 1867
     },
     {
      "id": "5",
@@ -490,12 +490,12 @@
     {
      "id": "9",
      "name": "SG Phoenix Gettorf",
-     "dwz": 1858
+     "dwz": 1862
     },
     {
      "id": "10",
      "name": "SK Doppelbauer Kiel 4",
-     "dwz": 1906
+     "dwz": 1905
     }
    ],
    "spiele": [
@@ -880,7 +880,7 @@
     {
      "id": "1",
      "name": "SK Doppelbauer Kiel 5",
-     "dwz": 1864
+     "dwz": 1861
     },
     {
      "id": "2",
@@ -1205,7 +1205,7 @@
     {
      "id": "8",
      "name": "SC Agon Neumünster 7",
-     "dwz": 1721
+     "dwz": 1723
     },
     {
      "id": "9",
