@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-21T19:31:08+00:00",
+ "stand": "2026-11-22T19:52:05+00:00",
  "ligen": [
   {
    "id": "svsh-212",
@@ -1734,40 +1734,40 @@
      "datum": "2026-11-22",
      "heim": "2",
      "gast": "10",
-     "bh": null,
-     "bg": null
+     "bh": 1.5,
+     "bg": 4.5
     },
     {
      "runde": 3,
      "datum": "2026-11-22",
      "heim": "3",
      "gast": "1",
-     "bh": null,
-     "bg": null
+     "bh": 5.0,
+     "bg": 1.0
     },
     {
      "runde": 3,
      "datum": "2026-11-22",
      "heim": "4",
      "gast": "9",
-     "bh": null,
-     "bg": null
+     "bh": 2.0,
+     "bg": 4.0
     },
     {
      "runde": 3,
      "datum": "2026-11-22",
      "heim": "5",
      "gast": "8",
-     "bh": null,
-     "bg": null
+     "bh": 4.5,
+     "bg": 1.5
     },
     {
      "runde": 3,
      "datum": "2026-11-22",
      "heim": "6",
      "gast": "7",
-     "bh": null,
-     "bg": null
+     "bh": 1.0,
+     "bg": 5.0
     },
     {
      "runde": 4,
@@ -2130,8 +2130,8 @@
      "datum": "2026-11-29",
      "heim": "9010",
      "gast": "9008",
-     "bh": null,
-     "bg": null
+     "bh": 5.0,
+     "bg": 1.0
     },
     {
      "runde": 3,
